@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -45,8 +46,32 @@ input {
   border-radius: 0;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html {
-  margin: 4px;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.6rem;
+  background: #2B1573;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh 5vw;
+}
+
+header img {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  margin: 0 1rem;
 }
 
 /*# sourceMappingURL=master.css.map */
