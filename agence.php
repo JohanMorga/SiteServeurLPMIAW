@@ -19,52 +19,52 @@
         <h2 class="projets__title">Pour les projets tuteurés - 2023/2024</h2>
         <ul class="projets__agences">
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-artfull-code.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Artfull-code</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-lipsom.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Lipsom</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-lotus-realisation.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Lotus-realisation</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-moderniweb.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Moderniweb</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-pawweb.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Pawweb</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-studio-fmr.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Studio-fmr</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-verseinnovate.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Verseinnovate</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-webforgeurs.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Webforgeurs</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-webmarmottes.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Webmarmottes</a>
             </li>
             <li class="agence">
-                <a href="#" class="agence__link">
+                <a href="https://agence-wizeus.lpmiaw.univ-lr.fr/" class="agence__link">
                 <img class="agence__image" src="" alt="">
                 Wizeus</a>
             </li>
