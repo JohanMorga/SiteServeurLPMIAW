@@ -58,20 +58,98 @@ body {
   font-family: "Exo 2", sans-serif;
   font-size: 1.6rem;
   background: #2B1573;
+  position: relative;
 }
 
-header {
+.header-home {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1vh 5vw;
+  padding: 2vh 5vw;
 }
-
-header img {
+.header-home img {
   width: 10rem;
   height: 10rem;
   flex-shrink: 0;
   margin: 0 1rem;
+}
+
+.nav-menu {
+  position: fixed;
+  top: 45%;
+  left: 20px;
+  background-color: #31065A;
+  border-radius: 10rem;
+  padding: 3rem 1rem;
+}
+.nav-menu__icon {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+.nav-menu__icon--active {
+  color: #F86F03;
+  margin-bottom: 1.5rem;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+}
+.principal .principal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+.principal .principal-text__title {
+  color: #fff;
+  order: 3;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.principal .principal-text__subtitle {
+  color: #fff;
+  order: 1;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 2rem;
+}
+.principal .principal-text__serveur {
+  color: #fff;
+  order: 2;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 3rem;
+  padding: 2rem;
+}
+.principal .principal-text__formation {
+  color: #fff;
+  order: 4;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 2rem;
+}
+.principal .principal-text__parcours {
+  color: #fff;
+  order: 5;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 2rem;
+}
+.principal .principal-img__image {
+  height: 60rem;
+  flex-shrink: 0;
 }
 
 /*# sourceMappingURL=master.css.map */
