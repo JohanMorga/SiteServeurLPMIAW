@@ -2,6 +2,18 @@
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
+
+  &__title {
+    text-align: center;
+    color: $c_white;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 2rem;
+    width: 80%;
+  }
 }
 
 .projets {
@@ -10,7 +22,12 @@
   align-items: center;
 
   &__title {
-    font-size: 1.8rem;
+    color: $c_white;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 3rem;
+    padding: 2rem;
   }
 
   &__agences {
@@ -27,30 +44,47 @@
   flex-direction: column;
   align-items: center;
 
-  &__image {
-    width: 14rem;
-    height: 12rem;
-
-    &:hover {
-      filter: brightness(.5);
-    }
-    &:hover ~ &--hover{
-      visibility: visible;
-    }
-
-  }
-  &__link {
-    text-decoration: none;
-    text-align: center;
-    position: relative;
-
-    &:hover {
-    }
-  }
-  &__svg {
+  &__content {
+    background-color: rgba(135, 91, 255, 0.85);
+    z-index: 100;
+    width: 16rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     visibility: hidden;
-    bottom: calc(50%);
-    left: 45%;
+
   }
+
+  &__name {
+    text-align: center;
+    color: $c_white;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    width: 16rem;
+    height: 14rem;
+    z-index: 10;
+
+  }
+
+  &__link {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    &:hover > .agence__content {
+      visibility: visible;
+    }
+  }
+
+
 }
