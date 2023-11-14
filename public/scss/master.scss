@@ -1,5 +1,6 @@
 @import "reset";
 @import "colors";
+@import "index";
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 *, *::before, *::after {
@@ -15,110 +16,4 @@ body {
   font-size: 1.6rem;
   background: $c_bg;
   position: relative;
-}
-
-.header-home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2vh 5vw;
-
-  img {
-    width: 10rem;
-    height: 10rem;
-    flex-shrink: 0;
-    margin: 0 1rem;
-  }
-}
-
-.nav-menu {
-  position : fixed;
-  top: 45%;
-  left: 20px;
-  background-color: $c_magenta;
-  border-radius: 10rem;
-  padding: 3rem 1rem;
-
-  &__icon {
-    color: $c_white;
-    font-size: 3rem;
-    text-align: center;
-
-
-    &--active {
-      color : $c_orange;
-      margin-bottom: 1.5rem;
-    }
-  }
-}
-
-.principal {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 1rem;
-
-  .principal-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 1rem;
-
-    &__title {
-      color : $c_white;
-      order: 3;
-      font-size: 2rem;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-    }
-
-    &__subtitle {
-      color : $c_white;
-      order: 1;
-      font-size: 6rem;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      padding: 2rem;
-    }
-
-    &__serveur {
-        color : $c_white;
-        order: 2;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        font-size: 3rem;
-        padding: 2rem;
-
-    }
-
-    &__formation {
-        color : $c_white;
-        order:4;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        font-size: 2rem;
-
-    }
-
-    &__parcours {
-      color : $c_white;
-      order: 5;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      font-size: 2rem;
-    }
-  }
-
-  .principal-img {
-    &__image {
-      height: 60rem;
-      flex-shrink: 0;
-    }
-  }
 }

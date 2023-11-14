@@ -1,0 +1,160 @@
+.header-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh 5vw;
+
+  img {
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+    margin: 0 1rem;
+  }
+}
+
+.nav-menu {
+  position : absolute;
+  top: 43%;
+  left: 20px;
+  background-color: $c_magenta;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10rem;
+  padding: 3rem 1rem;
+
+  &__element {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  &__link {
+    color: $c_white;
+    font-size: 32px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+
+
+    &--active {
+      color : $c_orange;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__text {
+    &--active {
+      display: block;
+      padding-top : 0.5rem;
+      font-size: 1.1rem;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &--inactive {
+      display: none;
+    }
+  }
+}
+
+.principal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+
+  .principal-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+
+    &__title {
+      color : $c_white;
+      order: 3;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    &__subtitle {
+      color : $c_white;
+      order: 1;
+      font-size: 6rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      padding: 2rem;
+    }
+
+    &__serveur {
+      color : $c_white;
+      order: 2;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      font-size: 3rem;
+      padding: 2rem;
+
+    }
+
+    &__formation {
+      color : $c_white;
+      order:4;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-size: 2rem;
+
+    }
+
+    &__parcours {
+      color : $c_white;
+      order: 5;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-size: 2rem;
+    }
+  }
+
+  .principal-img {
+    &__image {
+      height: 60rem;
+      flex-shrink: 0;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh 5vw;
+  margin-top: 5rem;
+
+  &__text {
+    color: $c_white;
+    font-size: 1.8rem;
+  }
+
+  .footer-reso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__element {
+      padding: 0 1rem;
+
+    }
+    &__link {
+      color: #fff;
+      text-decoration: none;
+      font-size: 2.4rem;
+    }
+  }
+
+}
