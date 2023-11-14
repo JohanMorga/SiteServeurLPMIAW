@@ -119,5 +119,6 @@ fabric.properties
 *.css.map
 *.sass.map
 *.scss.map
+*.css
 
 # End of https://www.toptal.com/developers/gitignore/api/sass,phpstorm
