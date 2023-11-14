@@ -1,7 +1,20 @@
 @import "reset";
 @import "agence";
-html {
-  margin: 4px;
+@import "colors";
+@import "index";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-body{background-color: black}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.6rem;
+  background: $c_bg;
+  position: relative;
+}
