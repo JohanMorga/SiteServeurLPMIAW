@@ -1,0 +1,56 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.projets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 1.8rem;
+  }
+
+  &__agences {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+  }
+}
+
+.agence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__image {
+    width: 14rem;
+    height: 12rem;
+
+    &:hover {
+      filter: brightness(.5);
+    }
+    &:hover ~ &--hover{
+      visibility: visible;
+    }
+
+  }
+  &__link {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+
+    &:hover {
+    }
+  }
+  &__svg {
+    position: absolute;
+    visibility: hidden;
+    bottom: calc(50%);
+    left: 45%;
+  }
+}
