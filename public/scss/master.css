@@ -45,8 +45,60 @@ input {
   border-radius: 0;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.projets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projets__title {
+  font-size: 1.8rem;
+}
+.projets__agences {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+
+.agence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.agence__image {
+  width: 14rem;
+  height: 12rem;
+}
+.agence__image:hover {
+  filter: brightness(0.5);
+}
+.agence__image:hover ~ .agence__image--hover {
+  visibility: visible;
+}
+.agence__link {
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+.agence__svg {
+  position: absolute;
+  visibility: hidden;
+  bottom: 50%;
+  left: 45%;
+}
+
 html {
   margin: 4px;
+}
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=master.css.map */

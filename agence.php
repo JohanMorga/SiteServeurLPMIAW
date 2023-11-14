@@ -10,8 +10,8 @@
 
 </head>
 <body>
-<header>
-    <h1>Les agences créées par les étudiants de la licence professionnelle
+<header class="header">
+    <h1 class="header__title">Les agences créées par les étudiants de la licence professionnelle
     </h1>
 </header>
 <main>
@@ -20,53 +20,142 @@
         <ul class="projets__agences">
             <li class="agence">
                 <a href="https://agence-artfull-code.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Artfull-code</a>
+                    <p>Artfull-code</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/artfull.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
             </li>
             <li class="agence">
                 <a href="https://agence-lipsom.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Lipsom</a>
+                    <p>Lipsom</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/lipsom.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
             </li>
             <li class="agence">
+
                 <a href="https://agence-lotus-realisation.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Lotus-realisation</a>
+                    <p>Lotus-realisation</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/lotus.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-moderniweb.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Moderniweb</a>
+                    <p>Moderniweb</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/moderniweb.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-pawweb.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Pawweb</a>
+                    <p>Pawweb</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/pawweb.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-studio-fmr.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Studio-fmr</a>
+                    <p>Studio-fmr</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/studiofmr.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-verseinnovate.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Verseinnovate</a>
+                    <p>Verseinnovate</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/VerseInnovate.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-webforgeurs.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Webforgeurs</a>
+                    <p>Webforgeurs</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/webForgeurs.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-webmarmottes.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Webmarmottes</a>
+                    <p>Webmarmottes</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/webMarmottes.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
             <li class="agence">
                 <a href="https://agence-wizeus.lpmiaw.univ-lr.fr/" class="agence__link">
-                <img class="agence__image" src="" alt="">
-                Wizeus</a>
+                    <p>Wizeus</p>
+                    <img class="agence__image" src="public/img/Agences/2023-2024/Wizeus.png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class=" agence__svg agence__image--hover">
+                        <rect width="18" height="18" x="3" y="3" rx="2"/>
+                        <path d="M8 8h8v8"/>
+                        <path d="m8 16 8-8"/>
+                    </svg>
+                </a>
+
             </li>
         </ul>
     </section>
