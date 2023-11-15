@@ -12,6 +12,56 @@
   }
 }
 
+.nav-mobile{
+  display: none;
+}
+
+.nav-menu {
+  position : fixed;
+  top : 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  background-color: $c_magenta;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10rem;
+  padding: 3rem 1rem;
+
+  &__element {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  &__link {
+    color: $c_white;
+    font-size: 32px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+
+
+    &--active {
+      color : $c_orange;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__text {
+    &--active {
+      display: block;
+      padding-top : 0.5rem;
+      font-size: 1.1rem;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    &--inactive {
+      display: none;
+    }
+  }
+}
 
 .principal {
   display: flex;
@@ -19,12 +69,15 @@
   align-items: center;
   margin: 1rem;
 
+  .principal-mobile {
+    display: none;
+  }
+
   .principal-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 0 1rem;
+    margin: 0 7vw;
 
     &__title {
       color : $c_white;
@@ -32,7 +85,7 @@
       font-size: 2rem;
       font-style: normal;
       font-weight: 500;
-      line-height: normal;
+      line-height: 1.4;
     }
 
     &__subtitle {
@@ -42,7 +95,7 @@
       font-style: normal;
       font-weight: 700;
       line-height: normal;
-      padding: 2rem;
+      padding-bottom: 3vh;
     }
 
     &__serveur {
@@ -52,7 +105,7 @@
       font-weight: 600;
       line-height: normal;
       font-size: 3rem;
-      padding: 2rem;
+      padding-bottom: 3vh;
 
     }
 
@@ -61,7 +114,7 @@
       order:4;
       font-style: normal;
       font-weight: 500;
-      line-height: normal;
+      line-height: 1.4;
       font-size: 2rem;
 
     }
@@ -71,7 +124,7 @@
       order: 5;
       font-style: normal;
       font-weight: 500;
-      line-height: normal;
+      line-height: 1.4;
       font-size: 2rem;
     }
   }
@@ -79,7 +132,6 @@
   .principal-img {
     &__image {
       height: 60rem;
-      flex-shrink: 0;
     }
   }
 }
@@ -106,10 +158,11 @@
 
     }
     &__link {
-      color: #fff;
+      color: $c_white;
       text-decoration: none;
       font-size: 2.4rem;
     }
   }
 
 }
+
