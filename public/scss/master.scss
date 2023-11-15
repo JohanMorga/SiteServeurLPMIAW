@@ -27,11 +27,10 @@ body {
 
   .nav-mobile{
     display: block;
-
+    height: 10%;
     .nav-menu {
       display: flex;
       justify-content: center;
-      width: 50%;
       min-width: 205px;
       padding: 1rem 4rem;
       top : 95%;
