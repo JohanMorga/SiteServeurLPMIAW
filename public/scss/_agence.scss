@@ -20,14 +20,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding: 4rem 0 8rem 0;
 
   &__title {
+    position: relative;
+
     color: $c_white;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 2rem;
+    margin-bottom: 8rem;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 3px;
+      width: 70%;
+      left: 50%;
+      transform: translate(-50%);
+      background-color: #fff;
+      margin: 2rem 0;
+      border-radius: 2px;
+
+    }
   }
 
   &__agences {
@@ -36,6 +56,10 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 1vw;
+  }
+
+  &--impair {
+    background-color: $c_darkblue;
   }
 }
 
@@ -47,13 +71,14 @@
   &__content {
     background-color: rgba(135, 91, 255, 0.85);
     z-index: 100;
-    width: 16rem;
-    height: 14rem;
+    width: $img_w;
+    height: $img_h;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     visibility: hidden;
+    border-radius: 16px;
 
   }
 
@@ -63,14 +88,15 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
   &__image {
-    width: 16rem;
-    height: 14rem;
+    width: $img_w;
+    height: $img_h;
     z-index: 10;
+    border-radius: 16px;
 
   }
 
@@ -81,6 +107,7 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+
     &:hover > .agence__content {
       visibility: visible;
     }

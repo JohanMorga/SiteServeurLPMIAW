@@ -1,6 +1,6 @@
 <?php
 
-$agences = array(
+$agences2023 = array(
     "Artfull-code" => array(
         "link" => 'https://agence-artfull-code.lpmiaw.univ-lr.fr/',
         "image" => 'public/img/Agences/2023-2024/artfull.png'
@@ -41,6 +41,10 @@ $agences = array(
         "link" => 'https://agence-wizeus.lpmiaw.univ-lr.fr/',
         "image" => 'public/img/Agences/2023-2024/Wizeus.png'
     ),
+    "Wizeseus" => array(
+        "link" => 'https://agence-wizeus.lpmiaw.univ-lr.fr/',
+        "image" => 'public/img/Agences/2023-2024/Wizeus.png'
+    ),
 
 )
 
@@ -60,10 +64,10 @@ $agences = array(
 </head>
 <body>
 <header class="header">
-    <h1 class="header__title">Les agences créées par les étudiants de la licence professionnelle
+    <h1 class="header__title">Agences des étudiants pour les projets tuteurés
     </h1>
 </header>
-<nav>
+<nav class="test">
     <ul class="nav-menu">
         <li class="nav-menu__element">
             <a class="nav-menu__link nav-menu__link" href="index.php">
@@ -89,9 +93,9 @@ $agences = array(
 </nav>
 <main>
     <section class="projets">
-        <h2 class="projets__title">Pour les projets tuteurés - 2023/2024</h2>
+        <h2 class="projets__title">Année 2023-2024</h2>
         <ul class="projets__agences">
-            <?php foreach ($agences as $agence => $infos):?>
+            <?php foreach ($agences2023 as $agence => $infos):?>
             <li class="agence">
 
                 <a href="<?=$infos['link']?>" class="agence__link">
@@ -113,7 +117,36 @@ $agences = array(
             <?php endforeach;?>
 
         </ul>
+
     </section>
+    <section class="projets projets--impair">
+        <h2 class="projets__title">Année 2022-2023</h2>
+        <ul class="projets__agences">
+            <?php foreach ($agences2023 as $agence => $infos):?>
+                <li class="agence">
+
+                    <a href="<?=$infos['link']?>" class="agence__link">
+                        <div class="agence__content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                 stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                 class="agence__svg">
+                                <rect width="18" height="18" x="3" y="3" rx="2"/>
+                                <path d="M8 8h8v8"/>
+                                <path d="m8 16 8-8"/>
+                            </svg>
+                        </div>
+                        <p class="agence__name"><?=$agence?></p>
+                        <img class="agence__image" src="<?=$infos['image']?>" alt="">
+
+                    </a>
+
+                </li>
+            <?php endforeach;?>
+
+        </ul>
+
+    </section>
+
 </main>
 </body>
 </html>
