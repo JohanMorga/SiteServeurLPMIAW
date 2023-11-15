@@ -69,6 +69,10 @@
   align-items: center;
   margin: 1rem;
 
+  .principal-mobile {
+    display: none;
+  }
+
   .principal-text{
     display: flex;
     flex-direction: column;
@@ -154,7 +158,7 @@
 
     }
     &__link {
-      color: #fff;
+      color: $c_white;
       text-decoration: none;
       font-size: 2.4rem;
     }

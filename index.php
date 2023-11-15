@@ -73,6 +73,18 @@
     <section class="principal-img">
         <img class="principal-img__image" src="public/img/imageAccueil.png" alt="">
     </section>
+    <section class="principal-mobile">
+        <ul class="principal-reso">
+            <li class="principal-reso__element">
+                <a class="principal-reso__link" href="https://www.linkedin.com/company/licence-pro-miaw-la-rochelle/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li class="principal-reso__element">
+                <a class="principal-reso__link" href="https://www.instagram.com/lpmiaw_univlr/"><i
+                            class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </section>
 </main>
 <footer class="footer">
     <p class="footer__text">Copyright text & Mentions légales</p>
