@@ -18,3 +18,121 @@ body {
   background: $c_bg;
   position: relative;
 }
+
+@media screen and (max-width: 768px) {
+
+  .nav-desktop{
+    display: none;
+  }
+
+  .nav-mobile{
+    display: block;
+    height: 10%;
+    .nav-menu {
+      display: flex;
+      justify-content: center;
+      min-width: 205px;
+      padding: 1rem 4rem;
+      top : 95%;
+      left: 25%;
+
+      &__element  {
+        padding : 0 1rem;
+      }
+
+      &__link {
+        color: $c_white;
+        text-align: center;
+        text-decoration: none;
+        font-style: normal;
+
+
+        &--active {
+          color : $c_orange;
+        }
+      }
+
+      &__text {
+        display: block;
+        font-size: 1.1rem;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0;
+        color: $c_white;
+      }
+    }
+  }
+
+  .principal{
+    display: flex;
+    flex-direction: column;
+
+    .principal-text{
+
+      margin: 0 3vw;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+
+      &__title {
+        font-size: 2rem;
+        text-align: center;
+      }
+
+      &__subtitle {
+        font-size: 4rem;
+        text-align: center;
+      }
+
+      &__serveur {
+        font-size: 2rem;
+        text-align: center;
+
+      }
+
+      &__formation {
+        font-size: 1.6rem;
+        text-align: center;
+
+      }
+
+      &__parcours {
+        font-size: 1.6rem;
+        text-align: center;
+      }
+    }
+
+    .principal-img {
+      margin-top: 1rem;
+      &__image{
+        height : 35vh;
+      }
+    }
+
+    .principal-mobile {
+      display: block;
+      margin-top: 1rem;
+      .principal-reso {
+        display : flex;
+        justify-content: center;
+        align-items: center;
+
+        &__element {
+          padding: 0 2rem;
+        }
+
+        &__link {
+          color: $c_white;
+          text-decoration: none;
+          font-size:2.4rem;
+        }
+      }
+    }
+  }
+
+
+  .footer {
+    display: none;
+  }
+}
