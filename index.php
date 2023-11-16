@@ -71,7 +71,7 @@
         <p class="principal-text__parcours"><strong>Web Designer Intégrateur - Développeur Full Stack</strong></p>
     </section>
     <section class="principal-img">
-        <img class="principal-img__image" src="public/img/imageAccueil.png" alt="">
+        <img class="principal-img__image" src="public/img/imageAccueil.png" width="1200" height="1000" alt="">
     </section>
     <section class="principal-mobile">
         <ul class="principal-reso">
