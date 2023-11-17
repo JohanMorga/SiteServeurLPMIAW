@@ -82,7 +82,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding: 2vh 5vw;
   margin-top: 5rem;
 

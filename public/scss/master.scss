@@ -19,6 +19,7 @@ body {
   font-size: 1.6rem;
   background: $c_bg;
   position: relative;
+  height: 100vh;
 }
 
 @media screen and (max-width: 1024px) {
@@ -115,11 +116,12 @@ body {
 
     .principal-mobile {
       display: block;
+      width: 100%;
       margin-top: 1rem;
 
       .principal-reso {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
 
         &__element {
