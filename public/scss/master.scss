@@ -90,7 +90,7 @@ body {
         font-size: 4rem;
         text-align: center;
       }
-      
+
       &__serveur {
         font-size: 2rem;
         text-align: center;
@@ -141,4 +141,17 @@ body {
   .footer {
     display: none;
   }
+}
+.swiper-wrapper{
+  height: 100%;
+}
+.swiper {
+  height:100vh;
+  width: 100%;
+}
+.swiper-slide {
+  height: auto;
+}
+body{
+  overflow: hidden;
 }
