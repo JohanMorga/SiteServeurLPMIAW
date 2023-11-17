@@ -31,16 +31,6 @@
     flex-shrink: 0;
     &__title {
       color : $c_white;
-      order: 3;
-      font-size: 2rem;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 1.4;
-    }
-
-    &__subtitle {
-      color : $c_white;
-      order: 1;
       font-size: 6rem;
       font-style: normal;
       font-weight: 700;
@@ -48,9 +38,9 @@
       padding-bottom: 3vh;
     }
 
+
     &__serveur {
       color : $c_white;
-      order: 2;
       font-style: normal;
       font-weight: 600;
       line-height: normal;
@@ -61,7 +51,6 @@
 
     &__formation {
       color : $c_white;
-      order:4;
       font-style: normal;
       font-weight: 500;
       line-height: 1.4;
@@ -71,7 +60,6 @@
 
     &__parcours {
       color : $c_white;
-      order: 5;
       font-style: normal;
       font-weight: 500;
       line-height: 1.4;

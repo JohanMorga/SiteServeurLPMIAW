@@ -12,7 +12,6 @@
 <body>
 <header class="header-home">
     <img src="public/img/imgULR.png" alt="Université de La Rochelle">
-    <img src="public/img/imgEDW.png" alt="Ecole du Web">
 </header>
 <nav class="nav-desktop">
     <ul class="nav-menu">
@@ -65,8 +64,7 @@
 <main class="principal">
     <section class="principal-text">
         <h1 class="principal-text__title">LP MIAW</h1>
-        <h2 class="principal-text__subtitle">École du Web</h2>
-        <h3 class="principal-text__serveur">Serveur Pédagogique</h3>
+        <h2 class="principal-text__serveur">Serveur Pédagogique</h2>
         <p class="principal-text__formation">Métiers de l'informatique : Applications Web</p>
         <p class="principal-text__parcours"><strong>Web Designer Intégrateur - Développeur Full Stack</strong></p>
     </section>
