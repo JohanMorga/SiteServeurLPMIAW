@@ -66,10 +66,10 @@
         <h1 class="principal-text__title">LP MIAW</h1>
         <h2 class="principal-text__serveur">Serveur Pédagogique</h2>
         <p class="principal-text__formation">Métiers de l'informatique : Applications Web</p>
-        <p class="principal-text__parcours"><strong>Web Designer Intégrateur - Développeur Full Stack</strong></p>
+        <p class="principal-text__parcours"><strong>Développeur Full Stack - Web Designer Intégrateur</strong></p>
     </section>
     <section class="principal-img">
-        <img class="principal-img__image" src="public/img/imageAccueil.png" width="1200" height="1000" alt="">
+        <img class="principal-img__image" src="public/img/imageAccueil.png" width="1200" height="1000" alt="Image assets">
     </section>
     <section class="principal-mobile">
         <ul class="principal-reso">
@@ -85,7 +85,7 @@
     </section>
 </main>
 <footer class="footer">
-    <p class="footer__text">Copyright text & Mentions légales</p>
+    <p class="footer__text">Copyright LP MIAW © & Mentions légales</p>
     <ul class="footer-reso">
         <li class="footer-reso__element">
             <a class="footer-reso__link" href="https://www.linkedin.com/company/licence-pro-miaw-la-rochelle/"><i
