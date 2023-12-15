@@ -2,10 +2,11 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="La Licence professionnelle MIAW à La Rochelle permet aux étudiants de créer de vraies agences web pour développer des projets auprès de professionnels.">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Serveur LP MIAW</title>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/icons/1088100220094656512/fa0de0a1ac25c9c3e0bfce67f436ed74.webp?size=160"/>
     <link rel="stylesheet" href="public/scss/master.css">
     <script src="https://kit.fontawesome.com/0d76749f2d.js" crossorigin="anonymous"></script>
 </head>
@@ -66,10 +67,10 @@
         <h1 class="principal-text__title">LP MIAW</h1>
         <h2 class="principal-text__serveur">Serveur Pédagogique</h2>
         <p class="principal-text__formation">Métiers de l'informatique : Applications Web</p>
-        <p class="principal-text__parcours"><strong>Web Designer Intégrateur - Développeur Full Stack</strong></p>
+        <p class="principal-text__parcours"><strong>Développeur Full Stack - Web Designer Intégrateur</strong></p>
     </section>
     <section class="principal-img">
-        <img class="principal-img__image" src="public/img/imageAccueil.png" width="1200" height="1000" alt="">
+        <img class="principal-img__image" src="public/img/imageAccueil.png" width="1200" height="1000" alt="Image assets">
     </section>
     <section class="principal-mobile">
         <ul class="principal-reso">
@@ -85,7 +86,7 @@
     </section>
 </main>
 <footer class="footer">
-    <p class="footer__text">Copyright text & Mentions légales</p>
+    <p class="footer__text">Copyright LP MIAW © & Mentions légales</p>
     <ul class="footer-reso">
         <li class="footer-reso__element">
             <a class="footer-reso__link" href="https://www.linkedin.com/company/licence-pro-miaw-la-rochelle/"><i
