@@ -1,5 +1,11 @@
 <?php
 
+$toutesagences['2023/2024'] = explode(' ', exec('members projet2324'));
+$toutesagences['2022/2023'] = explode(' ', exec('members projet2223'));
+$toutesagences['2021/2022'] = explode(' ', exec('members projet2122'));
+$toutesagences['2020/2021'] = explode(' ', exec('members projet2021'));
+$toutesagences['2019/2020'] = explode(' ', exec('members projet1920'));
+
 $agences2023 = array(
     "Artfull-code" => array(
         "link" => 'https://agence-artfull-code.lpmiaw.univ-lr.fr/',
@@ -122,68 +128,77 @@ $agences2023 = array(
 
     <div class="swiper">
         <div class="swiper-wrapper">
+            <div class="swiper-slide">
 
-            <section class="projets swiper-slide">
-                <h1 class="header__title">Agences des étudiants pour les projets tuteurés
-                </h1>
-                <h2 class="projets__title">Année 2023-2024</h2>
-                <ul class="projets__agences">
+                <section class="projets slide-content">
+                    <h1 class="header__title">Agences des étudiants pour les projets tuteurés
+                    </h1>
+                    <h2 class="projets__title">Année 2023-2024</h2>
+                    <ul class="projets__agences">
 
-                    <?php foreach ($agences2023 as $agence => $infos): ?>
-                        <li class="agence">
+                        <?php foreach ($agences2023 as $agence => $infos): ?>
+                            <li class="agence">
 
-                            <a target="_blank" href="<?= $infos['link'] ?>" class="agence__link">
-                                <div class="agence__content">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                         fill="none"
-                                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                         class="agence__svg">
-                                        <rect width="18" height="18" x="3" y="3" rx="2"/>
-                                        <path d="M8 8h8v8"/>
-                                        <path d="m8 16 8-8"/>
-                                    </svg>
-                                </div>
-                                <p class="agence__name"><?= $agence ?></p>
-                                <img class="agence__image" src="<?= $infos['image'] ?>" alt="">
+                                <a target="_blank" href="<?= $infos['link'] ?>" class="agence__link">
+                                    <div class="agence__content">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none"
+                                             stroke="white" stroke-width="2" stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             class="agence__svg">
+                                            <rect width="18" height="18" x="3" y="3" rx="2"/>
+                                            <path d="M8 8h8v8"/>
+                                            <path d="m8 16 8-8"/>
+                                        </svg>
+                                    </div>
+                                    <p class="agence__name"><?= $agence ?></p>
+                                    <img class="agence__image" src="<?= $infos['image'] ?>" alt="">
 
-                            </a>
+                                </a>
 
-                        </li>
-                    <?php endforeach; ?>
+                            </li>
+                        <?php endforeach; ?>
 
-                </ul>
+                    </ul>
 
-            </section>
-            <section class="projets projets--impair swiper-slide">
-                <h2 class="projets__title">Année 2022-2023</h2>
-                <ul class="projets__agences">
-                    <?php foreach ($agences2023 as $agence => $infos): ?>
-                        <li class="agence">
+                </section>
+            </div>
+            <div class="swiper-slide">
+                <section class="projets projets--impair slide-content">
+                    <h2 class="projets__title">Année 2022-2023</h2>
+                    <ul class="projets__agences">
+                        <?php foreach ($agences2023 as $agence => $infos): ?>
+                            <li class="agence">
 
-                            <a href="<?= $infos['link'] ?>" class="agence__link">
-                                <div class="agence__content">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                         fill="none"
-                                         stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                         class="agence__svg">
-                                        <rect width="18" height="18" x="3" y="3" rx="2"/>
-                                        <path d="M8 8h8v8"/>
-                                        <path d="m8 16 8-8"/>
-                                    </svg>
-                                </div>
-                                <p class="agence__name"><?= $agence ?></p>
-                                <img class="agence__image" src="<?= $infos['image'] ?>" alt="">
+                                <a href="<?= $infos['link'] ?>" class="agence__link">
+                                    <div class="agence__content">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none"
+                                             stroke="white" stroke-width="2" stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             class="agence__svg">
+                                            <rect width="18" height="18" x="3" y="3" rx="2"/>
+                                            <path d="M8 8h8v8"/>
+                                            <path d="m8 16 8-8"/>
+                                        </svg>
+                                    </div>
+                                    <p class="agence__name"><?= $agence ?></p>
+                                    <img class="agence__image" src="<?= $infos['image'] ?>" alt="">
 
-                            </a>
+                                </a>
 
-                        </li>
-                    <?php endforeach; ?>
+                            </li>
+                        <?php endforeach; ?>
 
-                </ul>
+                    </ul>
 
-            </section>
+                </section>
+            </div>
         </div>
     </div>
+
 </main>
 
 </body>

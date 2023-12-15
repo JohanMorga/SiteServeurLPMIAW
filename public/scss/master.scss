@@ -2,6 +2,7 @@
 @import "vars";
 @import "colors";
 @import "menu";
+@import "swiper";
 @import "index";
 @import "agence";
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
@@ -141,17 +142,4 @@ body {
   .footer {
     display: none;
   }
-}
-.swiper-wrapper{
-  height: 100%;
-}
-.swiper {
-  height:100vh;
-  width: 100%;
-}
-.swiper-slide {
-  height: auto;
-}
-body{
-  overflow: hidden;
 }
