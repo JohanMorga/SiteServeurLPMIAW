@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Serveur LP MIAW</title>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/icons/1088100220094656512/fa0de0a1ac25c9c3e0bfce67f436ed74.webp?size=160"/>
     <link rel="stylesheet" href="public/scss/master.css">
     <script src="https://kit.fontawesome.com/0d76749f2d.js" crossorigin="anonymous"></script>
 </head>
