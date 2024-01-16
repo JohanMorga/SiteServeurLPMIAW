@@ -1,4 +1,4 @@
-main{
+main {
   position: relative;
 }
 
@@ -24,6 +24,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 
   &__title {
     position: relative;
@@ -116,10 +117,9 @@ main{
   }
 
 
-
 }
 
-.main-fab{
+.main-fab {
   position: fixed;
   bottom: 2%;
   right: 2%;
@@ -129,7 +129,20 @@ main{
 
 .fab {
   color: $c_white;
-  &__path{
-    fill: $c_white;
+  background-color: $c_magenta;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 999rem;
+  padding: 0.5rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+  &:hover {
+    .fab__path {
+      stroke: $c_orange;
+    }
+
+    .fab__circle {
+      stroke: $c_orange;
+    }
   }
 }
