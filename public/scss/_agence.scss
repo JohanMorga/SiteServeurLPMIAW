@@ -1,4 +1,6 @@
-
+main{
+  position: relative;
+}
 
 .header {
   display: flex;
@@ -22,7 +24,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0 8rem 0;
 
   &__title {
     position: relative;
@@ -33,7 +34,7 @@
     line-height: normal;
     font-size: 4rem;
     padding: 2rem;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
 
     &::after {
       content: "";
@@ -67,6 +68,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 4rem;
 
   &__content {
     background-color: rgba(135, 91, 255, 0.85);
@@ -114,7 +116,20 @@
   }
 
 
+
 }
-.slide-content{
-  height: 100vh;
+
+.main-fab{
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 100;
+
+}
+
+.fab {
+  color: $c_white;
+  &__path{
+    fill: $c_white;
+  }
 }
