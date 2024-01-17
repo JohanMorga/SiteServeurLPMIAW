@@ -148,7 +148,7 @@ if (empty($toutesagences['2022-2023'][0])) {
                                 </svg>
                             </div>
                             <p class="agence__name"><?= $agence ?></p>
-                            <img class="agence__image" src="public/img/Agences/<?= $annee ?>/agence-<?= $agence ?>.png"
+                            <img class="agence__image" src="public/img/Agences/<?= $annee ?>/agence-<?= $agence ?>.webp"
                                  alt="">
 
                         </a>
