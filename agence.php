@@ -19,53 +19,21 @@ if(empty($toutesagences['2023-2024'][0])){
         "Wizeus",
     );
 }
-$agences2023 = array(
-    "Artfull-code" => array(
-        "link" => 'https://agence-artfull-code.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/artfull.png'
-    ),
-    "Lispsom" => array(
-        "link" => 'https://agence-lipsom.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/lipsom.png'
-    ),
-    "Lotus-realisation" => array(
-        "link" => 'https://agence-lotus-realisation.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/lotus.png'
-    ),
-    "Moderniweb" => array(
-        "link" => 'https://agence-moderniweb.lpmiaw.univ-lr.fr',
-        "image" => 'public/img/Agences/2023-2024/moderniweb.png'
-    ),
-    "Pawweb" => array(
-        "link" => 'https://agence-pawweb.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/pawweb.png'
-    ),
-    "Studio-fmr" => array(
-        "link" => 'https://agence-studio-fmr.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/studiofmr.png'
-    ),
-    "Verseinnovate" => array(
-        "link" => 'https://agence-verseinnovate.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/VerseInnovate.png'
-    ),
-    "Webforgeurs" => array(
-        "link" => 'https://agence-webforgeurs.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/webForgeurs.png'
-    ),
-    "WebMarmottes" => array(
-        "link" => 'https://agence-webmarmottes.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/webMarmottes.png'
-    ),
-    "Wizeus" => array(
-        "link" => 'https://agence-wizeus.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/Wizeus.png'
-    ),
-    "Wizeseus" => array(
-        "link" => 'https://agence-wizeus.lpmiaw.univ-lr.fr/',
-        "image" => 'public/img/Agences/2023-2024/Wizeus.png'
-    ),
 
-)
+if(empty($toutesagences['2022-2023'][0])){
+    $toutesagences['2022-2023'] = array(
+        "cssnake",
+        "digitelior",
+        "dittweb",
+        "hippopoweb",
+        "moonco",
+        "poulpea",
+        "semantix",
+        "truc-et-pic",
+        "webenmer",
+        "webrackets",
+    );
+}
 
 ?>
 
