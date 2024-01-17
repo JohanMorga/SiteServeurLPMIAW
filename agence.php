@@ -5,6 +5,7 @@ $toutesagences['2022-2023'] = explode(' ', exec('members projet2223'));
 $toutesagences['2021-2022'] = explode(' ', exec('members projet2122'));
 $toutesagences['2020-2021'] = explode(' ', exec('members projet2021'));
 $toutesagences['2019-2020'] = explode(' ', exec('members projet1920'));
+
 if(empty($toutesagences['2023-2024'][0])){
     $toutesagences['2023-2024'] = array(
         "Artfull-code",
@@ -47,10 +48,8 @@ if(empty($toutesagences['2022-2023'][0])){
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Agences des étudiants</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="public/scss/master.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <link rel="icon" type="image/png" href="https://cdn.discordapp.com/icons/1088100220094656512/fa0de0a1ac25c9c3e0bfce67f436ed74.webp?size=160"/>
     <script src="public/js/main.js" defer></script>
 </head>
 <body>
@@ -120,11 +119,9 @@ if(empty($toutesagences['2022-2023'][0])){
     <h1 class="header__title">Agences des étudiants pour les projets tuteurés
     </h1>
     <?php
-    foreach ($toutesagences
-
-             as $annee => $agences) :
+    foreach ($toutesagences as $annee => $agences) :
         sort($agences);
-        ?>
+    ?>
         <section class="projets">
 
             <h2 class="projets__title">Année <?= $annee ?></h2>
@@ -146,7 +143,7 @@ if(empty($toutesagences['2022-2023'][0])){
                                 </svg>
                             </div>
                             <p class="agence__name"><?= $agence ?></p>
-                            <img class="agence__image" src="public/img/Agences/<?= $annee ?>/agence-<?=$agence?>.png" alt="">
+                            <img class="agence__image" src="public/img/Agences/<?= $annee ?>/agence-<?=$agence?>.webp" alt="">
 
                         </a>
 

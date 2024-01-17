@@ -7,3 +7,9 @@ projets.forEach((projet) => {
     }
     switchIndex++;
 });
+
+const boutonFab = document.querySelector('.fab');
+boutonFab.addEventListener('click', () => {
+    window.scrollBy(0, window.innerHeight);
+    console.log(window.innerHeight);
+});
