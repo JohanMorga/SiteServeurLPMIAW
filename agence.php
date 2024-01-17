@@ -1,11 +1,24 @@
 <?php
 
-$toutesagences['2023/2024'] = explode(' ', exec('members projet2324'));
-$toutesagences['2022/2023'] = explode(' ', exec('members projet2223'));
-$toutesagences['2021/2022'] = explode(' ', exec('members projet2122'));
-$toutesagences['2020/2021'] = explode(' ', exec('members projet2021'));
-$toutesagences['2019/2020'] = explode(' ', exec('members projet1920'));
-
+$toutesagences['2023-2024'] = explode(' ', exec('members projet2324'));
+$toutesagences['2022-2023'] = explode(' ', exec('members projet2223'));
+$toutesagences['2021-2022'] = explode(' ', exec('members projet2122'));
+$toutesagences['2020-2021'] = explode(' ', exec('members projet2021'));
+$toutesagences['2019-2020'] = explode(' ', exec('members projet1920'));
+if(empty($toutesagences['2023-2024'][0])){
+    $toutesagences['2023-2024'] = array(
+        "Artfull-code",
+        "Lipsom",
+        "Lotus-realisation",
+        "Moderniweb",
+        "Pawweb",
+        "Studio-fmr",
+        "Verseinnovate",
+        "Webforgeurs",
+        "WebMarmottes",
+        "Wizeus",
+    );
+}
 $agences2023 = array(
     "Artfull-code" => array(
         "link" => 'https://agence-artfull-code.lpmiaw.univ-lr.fr/',
@@ -126,52 +139,32 @@ $agences2023 = array(
 <main>
     <span class="main-fab">
 <!--    <svg class="fab" xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 512 512">-->
-<!--        !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-<!--        <path class="fab__path" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>-->
-<!--    </svg>-->
-        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-circle fab">
+        <!--        !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <!--        <path class="fab__path" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>-->
+        <!--    </svg>-->
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="lucide lucide-chevron-down-circle fab">
             <circle class="fab__circle" cx="12" cy="12" r="10" fill="none" stroke="currentColor"/>
             <path class="fab__path" d="m16 10-4 4-4-4"/>
         </svg>
     </span>
-    <section class="projets">
-        <h1 class="header__title">Agences des étudiants pour les projets tuteurés
-        </h1>
-        <h2 class="projets__title">Année 2023-2024</h2>
-        <ul class="projets__agences">
+    <h1 class="header__title">Agences des étudiants pour les projets tuteurés
+    </h1>
+    <?php
+    foreach ($toutesagences
 
-            <?php foreach ($agences2023 as $agence => $infos): ?>
-                <li class="agence">
+             as $annee => $agences) :
+        sort($agences);
+        ?>
+        <section class="projets">
 
-                    <a target="_blank" href="<?= $infos['link'] ?>" class="agence__link">
-                        <div class="agence__content">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                 viewBox="0 0 24 24"
-                                 fill="none"
-                                 stroke="white" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round"
-                                 class="agence__svg">
-                                <rect width="18" height="18" x="3" y="3" rx="2"/>
-                                <path d="M8 8h8v8"/>
-                                <path d="m8 16 8-8"/>
-                            </svg>
-                        </div>
-                        <p class="agence__name"><?= $agence ?></p>
-                        <img class="agence__image" src="<?= $infos['image'] ?>" alt="">
-
-                    </a>
-
-                </li>
-            <?php endforeach; ?>
-        </ul>
-    </section>
-        <section class="projets projets--impair slide-content">
-            <h2 class="projets__title">Année 2022-2023</h2>
+            <h2 class="projets__title">Année <?= $annee ?></h2>
             <ul class="projets__agences">
-                <?php foreach ($agences2023 as $agence => $infos): ?>
-                    <li class="agence">
 
-                        <a href="<?= $infos['link'] ?>" class="agence__link">
+                <?php foreach ($agences as $agence) : ?>
+                    <li class="agence">
+                        <a target="_blank" href="https://agence-<?= $agence ?>.lpmiaw.univ-lr.fr/" class="agence__link">
                             <div class="agence__content">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                      viewBox="0 0 24 24"
@@ -185,16 +178,15 @@ $agences2023 = array(
                                 </svg>
                             </div>
                             <p class="agence__name"><?= $agence ?></p>
-                            <img class="agence__image" src="<?= $infos['image'] ?>" alt="">
+                            <img class="agence__image" src="public/img/Agences/<?= $annee ?>/agence-<?=$agence?>.png" alt="">
 
                         </a>
 
                     </li>
                 <?php endforeach; ?>
-
             </ul>
-
         </section>
+    <?php endforeach; ?>
 
 </main>
 

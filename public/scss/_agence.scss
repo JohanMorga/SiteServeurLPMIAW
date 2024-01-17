@@ -10,12 +10,11 @@ main {
   &__title {
     text-align: center;
     color: $c_white;
-    font-size: 6rem;
+    font-size: clamp(2.5rem,1.25rem + 5.5556vw,6.25rem);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding: 2rem;
-    width: 80%;
+    padding: 2rem 1rem;
   }
 }
 
@@ -24,7 +23,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  min-height: 100vh;
 
   &__title {
     position: relative;
@@ -33,7 +32,7 @@ main {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    font-size: 4rem;
+    font-size: clamp(2.5rem,2.2917rem + .9259vw,3.125rem);;
     padding: 2rem;
     margin-bottom: 4rem;
 
@@ -53,7 +52,7 @@ main {
   }
 
   &__agences {
-    width: 60%;
+    max-width: 75%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
