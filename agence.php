@@ -47,7 +47,6 @@ if (empty($toutesagences['2022-2023'][0])) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Agences des étudiants</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="public/scss/master.css">
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
@@ -126,7 +125,7 @@ if (empty($toutesagences['2022-2023'][0])) {
         as $annee => $agences
     ) :
         sort($agences);
-        ?>
+    ?>
         <section class="projets">
 
             <h2 class="projets__title">Année <?= $annee ?></h2>
