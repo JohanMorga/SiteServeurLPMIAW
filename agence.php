@@ -125,7 +125,7 @@ if (empty($toutesagences['2022-2023'][0])) {
         as $annee => $agences
     ) :
         sort($agences);
-    ?>
+        ?>
         <section class="projets">
 
             <h2 class="projets__title">Année <?= $annee ?></h2>
