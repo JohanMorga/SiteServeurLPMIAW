@@ -78,8 +78,9 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    visibility: hidden;
+    opacity: 0;
     border-radius: 16px;
+    transition: opacity 0.3s ease-in-out;
   }
 
   &__name {
@@ -107,7 +108,7 @@
     flex-direction: column;
 
     &:hover > .agence__content {
-      visibility: visible;
+      opacity: 1;
     }
   }
 
@@ -129,6 +130,7 @@
   border-radius: 999rem;
   padding: 0.5rem;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  animation: bounce 2s ease-in-out infinite;
 
   &:hover {
     cursor: pointer;
@@ -141,4 +143,14 @@
       stroke: $c_orange;
     }
   }
+}
+
+@keyframes bounce {
+  70% { transform:translateY(0%); }
+  80% { transform:translateY(-15%); }
+  90% { transform:translateY(0%); }
+  95% { transform:translateY(-7%); }
+  97% { transform:translateY(0%); }
+  99% { transform:translateY(-3%); }
+  100% { transform:translateY(0); }
 }

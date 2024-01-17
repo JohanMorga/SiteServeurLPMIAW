@@ -17,6 +17,7 @@ linkMenu.addEventListener('mouseenter', () => {
     textMenu.style.color = '#F86F03';
     iconHome.style.color = '#F86F03';
     iconAgence.style.color = '#fff';
+
 });
 
 linkMenu.addEventListener('mouseleave', () => {
