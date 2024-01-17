@@ -23,3 +23,10 @@ linkMenu.addEventListener('mouseleave', () => {
     iconHome.style.color = '#fff';
     iconAgence.style.color = '#F86F03';
 });
+
+
+const boutonFab = document.querySelector('.fab');
+boutonFab.addEventListener('click', () => {
+    window.scrollBy(0, window.innerHeight);
+    console.log(window.innerHeight);
+});
