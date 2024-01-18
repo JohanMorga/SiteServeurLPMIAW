@@ -5,6 +5,7 @@
 @import "swiper";
 @import "index";
 @import "agence";
+@import "mention";
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 *, *::before, *::after {
@@ -35,6 +36,10 @@ body {
 
   .nav-desktop {
     display: none;
+  }
+
+  .nav-mention {
+    display: block !important;
   }
 
   .nav-mobile {

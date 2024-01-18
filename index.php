@@ -91,7 +91,8 @@
     </section>
 </main>
 <footer class="footer">
-    <p class="footer__text">Copyright LP MIAW © & Mentions légales</p>
+    <p class="footer__text">Copyright LP MIAW © & <a class="footer__text--link" href="mention.php">Mentions légales</a>
+    </p>
     <ul class="footer-reso">
         <li class="footer-reso__element">
             <a class="footer-reso__link" href="https://www.linkedin.com/company/licence-pro-miaw-la-rochelle/"><i
