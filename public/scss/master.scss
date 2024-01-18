@@ -156,3 +156,9 @@ body {
     display: none;
   }
 }
+
+@media screen and (min-width: 2048px) {
+  html{
+    font-size: 100%;
+  }
+}
