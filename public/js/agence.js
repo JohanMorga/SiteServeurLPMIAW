@@ -1,5 +1,4 @@
 const projets = document.querySelectorAll('.projets');
-console.log(projets);
 let switchIndex = 0;
 projets.forEach((projet) => {
     if (switchIndex % 2 !== 0) {
