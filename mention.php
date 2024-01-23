@@ -52,7 +52,7 @@
     </article>
     <article class="content-article">
         <h2 class="content-article__title">Hébergeur du site</h2>
-        <p class="content-article__text">LP MIAW - La Rochelle</p>
+        <p class="content-article__text">Université de La Rochelle</p>
     </article>
     <article class="content-article">
         <h2 class="content-article__title">Crédits Image</h2>

@@ -5,35 +5,6 @@ $toutesagences['2022-2023'] = explode(' ', exec('members projet2223'));
 $toutesagences['2021-2022'] = explode(' ', exec('members projet2122'));
 $toutesagences['2020-2021'] = explode(' ', exec('members projet2021'));
 $toutesagences['2019-2020'] = explode(' ', exec('members projet1920'));
-if (empty($toutesagences['2023-2024'][0])) {
-    $toutesagences['2023-2024'] = array(
-        "Artfull-code",
-        "Lipsom",
-        "Lotus-realisation",
-        "Moderniweb",
-        "Pawweb",
-        "Studio-fmr",
-        "Verseinnovate",
-        "Webforgeurs",
-        "WebMarmottes",
-        "Wizeus",
-    );
-}
-
-if (empty($toutesagences['2022-2023'][0])) {
-    $toutesagences['2022-2023'] = array(
-        "cssnake",
-        "digitelior",
-        "dittweb",
-        "hippopoweb",
-        "moonco",
-        "poulpea",
-        "semantix",
-        "truc-et-pic",
-        "webenmer",
-        "webrackets",
-    );
-}
 
 ?>
 
@@ -104,10 +75,6 @@ if (empty($toutesagences['2022-2023'][0])) {
 </nav>
 <main class="content">
     <span class="main-fab">
-<!--    <svg class="fab" xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 512 512">-->
-        <!--        !Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-        <!--        <path class="fab__path" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>-->
-        <!--    </svg>-->
         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none"
              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
              class="lucide lucide-chevron-down-circle fab">
