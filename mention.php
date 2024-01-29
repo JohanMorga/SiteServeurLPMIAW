@@ -43,7 +43,7 @@
 <section class="content">
     <h1 class="content__title">Mentions légales</h1>
     <article class="content-article">
-        <h2 class="content-article__title">Propriétaire du site</h2>
+        <h2 class="content-article__title">Responsable éditorial</h2>
         <p class="content-article__text">Nicolas TRUGEON</p>
     </article>
     <article class="content-article">
