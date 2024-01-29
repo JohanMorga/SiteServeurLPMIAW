@@ -6,9 +6,11 @@
 @import "index";
 @import "agence";
 @import "mention";
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -18,7 +20,7 @@ html {
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 1.6rem;
   background: $c_bg;
   position: relative;
@@ -32,7 +34,6 @@ body {
   .agence__name {
     text-decoration: underline;
   }
-
 
   .nav-desktop {
     display: none;
@@ -71,7 +72,6 @@ body {
         text-decoration: none;
         font-style: normal;
 
-
         &--active {
           color: $c_orange;
         }
@@ -95,7 +95,6 @@ body {
     flex-direction: column;
 
     .principal-text {
-
       margin: 0 3vw;
       padding-top: 2rem;
       padding-bottom: 2rem;
@@ -108,13 +107,11 @@ body {
       &__serveur {
         font-size: 2rem;
         text-align: center;
-
       }
 
       &__formation {
         font-size: 1.6rem;
         text-align: center;
-
       }
 
       &__parcours {
@@ -125,7 +122,6 @@ body {
 
     .principal-img {
       margin-top: 1rem;
-
     }
 
     .principal-mobile {
@@ -151,14 +147,13 @@ body {
     }
   }
 
-
   .footer {
     display: none;
   }
 }
 
 @media screen and (min-width: 2048px) {
-  html{
+  html {
     font-size: 100%;
   }
 }
